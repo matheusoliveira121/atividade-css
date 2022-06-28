@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ghost{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+ul{
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    transform: translate(-30%, -10%);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+}
+li{
+    font-size: 5em;
+    letter-spacing: 20px;
+    transition: 1s;
+}
+li:hover{
+    filter: blur(70px);
+    opacity: (0px);
+}
